@@ -1,6 +1,6 @@
 # cra template IoT Cardboard js
 
-A Create React App template for the [@microsoft/iot-cardboard-js]([https://www.npmjs.com/package/@microsoft/iot-cardboard-js](https://github.com/microsoft/iot-cardboard-js) component library.
+A Create React App template for the [@microsoft/iot-cardboard-js](https://github.com/microsoft/iot-cardboard-js) component library.
 
 ## Usage
 

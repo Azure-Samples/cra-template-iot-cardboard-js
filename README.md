@@ -8,7 +8,7 @@ A Create React App template for the [@microsoft/iot-cardboard-js](https://github
 To use this template with npm - run the following command:
 
 ```bash
-npx create-react-app your-project-name --template cra-template-iot-cardboard-js
+npx create-react-app your-project-name --template iot-cardboard-js
 ```
 
 or if you have local changes to the template use the local template (you can run this command anywhere as long as you have an explicit reference to the repository.) :

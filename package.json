@@ -1,0 +1,39 @@
+{
+  "name": "cra-template-iot-cardboard-js",
+  "version": "1.0.0",
+  "title":"A Starter Template for Microsoft IoT Cardboard js with Azure Digital Twins",
+  "description": "A Create React App Template for Microsoft iot-cardboard-js",
+  "main": "template.json",
+  "files": [
+    "template.json",
+    "template"
+  ],
+  "preview": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "npx create-react-app sample-twin-app --template file:."
+  },
+  "keywords": [
+    "react",
+    "create-react-app",
+    "cra-template",
+    "cra-template-iot-cardboard-js",
+    "iot-cardboard-js",
+    "react-router-dom",
+    "ESLint",
+    "fluentui",
+    "tailwindcss",
+    "Generate Templates",
+    "Folder Structure",
+    "reactjs",
+    "react v17"
+  ],
+  "author": {
+    "name": "Alex Hayward",
+    "url": "https://github.com/waywardhayward"
+  },
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}

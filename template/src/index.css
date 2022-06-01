@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+
+:root {
+  --base-500: #A0AEC0;
+  --base-200: #E2E8F0;
+  --base-300: #E2E8F0;
+  --base-400: #CBD5E0;
+  --main-500: #6366f1;
+  --main-400: #7F9CF5;
+  --main-200: #c3dafe;
+  --main-100: #EBF4FF;
+  --solid: #FFF;
+  --solid-900: #4a5568;
+  --shadow: 0 10px 15px -3px rgba(36, 69, 101, 0.19), 0 4px 6px -2px rgb(208, 220, 232);
+  --shadow-active: 0 0 0 2px currentColor, 0 10px 15px -3px rgba(36, 69, 101, 0.19), 0 4px 6px -2px rgb(208, 220, 232);
+}
+
+.css-443 {
+  background-color: rgb(22, 32, 60);
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border-style: none;
+  outline: none;
+  font: inherit;
+  text-overflow: ellipsis;
+  padding: 0px;
+}
+
+.field-432 {
+  font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: none;
+  margin: 0px;
+  padding: 0px 8px;
+  box-sizing: border-box;
+  border-radius: 0px;
+  border: none;
+  background: none transparent;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  min-width: 0px;
+  text-overflow: ellipsis;
+  outline: 0px;
+}
+
+.css-224 {
+  background-color: rgb(22, 32, 60);
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border-style: none;
+  outline: none;
+  font: inherit;
+  text-overflow: ellipsis;
+    font-size:14px;
+}
+
+.css-205 {
+  background-color: rgb(22, 32, 60);
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border-style: none;
+  outline: none;
+  font: inherit;
+  text-overflow: ellipsis;
+}
+
+.dark-mode {
+  --base-500: #718096;
+  --base-200: #2d3748;
+  --base-300: #4a5568;
+  --base-400: #4a5568;
+  --main-500: #6366f1;
+  --main-200: #4a5568;
+  --main-100: #2d3648;
+  --solid: #111827;
+  --solid-900: #d1dcec;
+  --sidebar-bg: #2e3647;
+  --sidebar-color: #fff;
+  --shadow: 0 10px 15px -3px rgb(26, 32, 45), 0 4px 6px -2px rgb(48, 58, 84);
+  --shadow-active: 0 0 0 2px currentColor, 0 10px 15px -3px rgba(0, 0, 0, 0.35), 0 4px 6px -2px rgb(76, 82, 90);
+}
+
+
+.slate {
+  --root-183-color: #fff;
+  --cb-color-text-primary: #fff;
+  --cb-color-text-secondary: #768390;
+  --main-500: #2d333b;
+  --main-400: #768390;
+}
+
+.slate:not(.dark-mode) {
+  --main-200: #768390;
+  --main-100: #768390;
+}
+
+.app {
+  height: 100vh;
+}
+
+.app.dark-mode {
+  background-color: #111827;
+}
+
+.main {
+  height: calc(100vh - 64px);
+  overflow: auto;
+  transition: .3s;
+  background:  rgb(22, 32, 60) 70%;
+}
+
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar {
+  display: none;
+}
+
+.toolbar {
+  background-color: var(--main-500);
+  transition: padding .3s;
+  padding: 0 16px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+}

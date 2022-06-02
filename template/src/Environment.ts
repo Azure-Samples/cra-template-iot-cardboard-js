@@ -10,7 +10,11 @@ export class Environment {
   public static AdtHost = ():string => {
     let adtHost = (process.env.REACT_APP_ADT_HOST ?? "");
 
-    if(adtHost.length == 0)
+    if (adtHost === '[your-host-name]') {
+      adtHost = window.location.href;   // Don't crash
+    }
+
+    if(adtHost.length === 0)
       console.warn("REACT_APP_ADT_HOST is not set.  This is required for the Azure Digital Twins to work.");
 
      return adtHost.replace(/^https?:\/\//, '');
@@ -23,8 +27,12 @@ export class Environment {
   */
   public static BlobUrl = ():string =>  {
     let blobUrl = process.env.REACT_APP_BLOB_URL ?? "";
+    if (blobUrl === '[your-3d-scenes-storage]') {
+      blobUrl = window.location.href;   // Don't crash
+    }
 
-    if(blobUrl.length == 0) 
+
+    if(blobUrl.length === 0) 
       console.warn("REACT_APP_BLOB_URL is not set.  This is required for the 3D Scene to be loaded.");
 
     if(!blobUrl.startsWith("https://") && !blobUrl.startsWith("http://"))

@@ -70,7 +70,7 @@ You will also need to enable CORS on your storage account as the 3D models are f
 
 In order for the application to work, you need have a valid Azure Active Directory App Registration.
 
-The Application needs to have the following **Web** redirect URI:
+The Application needs to have the following **Web** redirect URI, plus if you deploy it, the deployed URL:
 
 ```
 https://localhost:3000
@@ -91,15 +91,7 @@ The Permissions below are only required to use Power BI
 
 | Service | Permission | Type | Description |
 |---------|-----------|------|-------------|
-|Power BI Service    | App.Read.All             | Delegated | View all Power BI apps |
-|Power BI Service    | Capacity.Read.All        | Delegated | View all capacities |
-|Power BI Service    | Dashboard.Read.All       | Delegated | View all dashboards |
-|Power BI Service    | Dataflow.Read.All        | Delegated | View all dataflows |
-|Power BI Service    | Dataset.Read.All         | Delegated | View all datasets |
-|Power BI Service    | Gateway.Read.All         | Delegated | View all gateways |
 |Power BI Service    | Report.Read.All          | Delegated | View all reports |
-|Power BI Service    | StorageAccount.Read.All  | Delegated | View all storage accounts |
-|Power BI Service    | Workspace.Read.All       | Delegated | View all workspaces |
 
 ## Deployment
 

@@ -62,6 +62,10 @@ function App() {
     config
   };
 
+  if (process.env.REACT_APP_clientId === '[aad-client-id]') {
+    return <div>You need to update your .env file - see the README</div>;
+  }
+
   return (
     <Router>
       <ApplicationContext.Provider value={appContext}>

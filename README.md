@@ -32,7 +32,7 @@ Inside the project directory run using npm or yarn:
 
 The CRA template only supports react v17 for now.
 
-You may want to use PowerBI to do reporting on Azure Data Explorer (ADX) data, so see the included a PowerBI component to help with that.
+You may want to use PowerBI to do reporting on Azure Data Explorer (ADX) data, so see the included PowerBI component to help with that.
 
 See this link for enabling [ADX historisation](https://docs.microsoft.com/en-us/azure/digital-twins/how-to-use-data-history)  
 You can also [query ADT from Kusto](https://docs.microsoft.com/en-us/azure/digital-twins/concepts-data-explorer-plugin)  
@@ -43,7 +43,7 @@ Check out the [International Space Station demo](https://docs.microsoft.com/en-u
 
 You need to update the created .env file with your environment:  
 
-REACT_APP_authority=https://login.microsoftonline.com/ **tenant guid**  
+REACT_APP_authority=https://login.microsoftonline.com/**[tenant guid]**  
 REACT_APP_clientId=**appId guid**  
 REACT_APP_TITLE=Twin Viewer  
 

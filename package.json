@@ -1,6 +1,6 @@
 {
   "name": "cra-template-iot-cardboard-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "title":"A Starter Template for Microsoft IoT Cardboard js with Azure Digital Twins",
   "description": "A Create React App Template for Microsoft iot-cardboard-js",
   "main": "template.json",

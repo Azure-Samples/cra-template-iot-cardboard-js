@@ -14,7 +14,6 @@ export const TwinViewer: React.FC<ITwinViewerProps> = ({ className }) => {
       <ADT3DViewer
         scenesConfig={config as any}
         sceneId={process.env.REACT_APP_SCENEID}
-        pollingInterval={10000}
         title="3D Viewer"
         theme={Theme.Kraken}
         adapter={ADT3DSceneAdapter}

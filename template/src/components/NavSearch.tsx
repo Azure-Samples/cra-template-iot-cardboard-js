@@ -14,7 +14,8 @@ export const NavSearch: React.FC<any> = () => {
             console.log(params);
             return ADT3DSceneAdapter.searchADTTwins({
                 searchTerm: params.queryString,
-                shouldSearchByModel: true
+                shouldSearchByModel: true,
+                searchProperty: '$dtId'
             })
         },
         refetchDependencies: [],
